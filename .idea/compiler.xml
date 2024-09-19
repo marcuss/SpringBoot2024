@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="0" />
+        <module name="demo" />
         <module name="bean-definition-vintage" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="0" options="-parameters" />
       <module name="bean-definition-vintage" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="spring-petclinic-2.4.0" options="-parameters" />
     </option>
   </component>

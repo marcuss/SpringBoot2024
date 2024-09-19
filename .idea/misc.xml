@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/bean-definition-best-practices" />
     <file type="web" url="file://$PROJECT_DIR$/bean-definition-tricks" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/bean-def-vintage/pom.xml" />
         <option value="$PROJECT_DIR$/bean-definition-vintage/pom.xml" />
         <option value="$PROJECT_DIR$/spring-petclinic-2.4.0/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-pathvariable-matrix/pom.xml" />
       </list>
     </option>
   </component>

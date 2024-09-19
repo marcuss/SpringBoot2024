@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/bean-definition-vintage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bean-definition-vintage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-pathvariable-matrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-petclinic-2.4.0/src/main/java" charset="UTF-8" />
   </component>
 </project>

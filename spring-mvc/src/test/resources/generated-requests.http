@@ -1,0 +1,75 @@
+###
+GET http://localhost:8080/java-version
+
+<> 2024-09-18T203232.200.txt
+
+###
+GET http://localhost:8080/java-version
+
+###
+GET http://localhost:8080/spring-web-3.0.5.jar
+
+<> f-1.txt
+<> f.txt
+
+###
+GET http://localhost:8080/api/v1.0/users
+
+###
+GET http://localhost:8080/users
+
+###
+GET http://localhost:8080/users/12
+
+###
+GET http://localhost:8080/files/c:/user/desktop
+
+###
+GET http://localhost:8080/files/archive.txt
+
+### Sample request to getOrderItems endpoint
+GET http://localhost:8080/orders/123/items;category=electronics;price=50
+
+### Sample request to getOrderItems endpoint
+GET http://localhost:8080/john;vegetables=oranges/hello
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 1,
+  "username": "johndoe",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "phoneNumber": "+1234567890",
+  "dateOfBirth": "1990-01-01",
+  "lastLogin": "2023-10-01",
+  "subscriptionEndDate": "2024-12-31",
+  "creationDate": "2025-10-01",
+  "active": true,
+  "isActive": true,
+  "isDeleted": false,
+  "deleted": false,
+  "age": 25,
+  "rank": 1,
+  "balance": 1000.50,
+  "debt": -1500.75,
+  "negativeBalance": -500.00,
+  "height": 175.50,
+  "salary": 50000.00,
+  "netWorth": 750000.00
+}
+
+
+###
+POST http://localhost:8080/users/invalid
+Content-Type: application/json
+
+{
+  "id": 0
+}
+
+###
+POST http://localhost:8080/users/custom-error
