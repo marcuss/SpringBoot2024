@@ -1,0 +1,8 @@
+/spring-petclinic-2.4.0/target/
+/bean-definition-vintage/target/
+/bean-definition-best-practices/target/
+/bean-definition-tricks/target/
+/bean-definition-best-practices/.gradle/
+/spring-petclinic-2.4.0/.gradle/
+/bean-definition-vintage/.gradle/
+/bean-definition-tricks/.gradle/
